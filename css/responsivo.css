@@ -1,0 +1,112 @@
+@media all and (max-width: 1120px) {
+    #form .inputs {
+        justify-content: space-between;
+        margin: 0% 15%;
+    }
+}
+
+@media all and (max-width: 925px) {
+    #form .inputs {
+        justify-content: space-between;
+        margin: 0% 10%;
+    }
+    #form label {
+        font-size: 140%;
+    }
+    #form button {
+        font-size: 140%;
+    }
+}
+
+@media all and (max-width: 790px) {
+    #form .inputs {
+        justify-content: space-between;
+        margin: 0% 5%;
+    }
+    #form label {
+        font-size: 130%;
+    }
+    #form button {
+        font-size: 130%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    #form .inputs {
+        justify-content: space-between;
+        margin: 0% 1%;
+    }
+    #form label {
+        font-size: 115%;
+    }
+    #form button {
+        font-size: 115%;
+    }
+    #total {
+        font-size: 450%;
+    }
+}
+
+@media all and (max-width: 595px) {
+    #form .inputs {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #form label {
+        font-size: 115%;
+    }
+    #form button {
+        font-size: 115%;
+    }
+    span {
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 430px) {
+    header {
+        height: 70px;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    #form label {
+        font-size: 115%;
+    }
+    #form button {
+        font-size: 115%;
+    }
+    #total {
+        font-size: 350%;
+    }
+    footer {
+        height: 50px;
+    }
+    span {
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 295px) {
+    header {
+        height: 60px;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    #form label {
+        font-size: 105%;
+    }
+    #form button {
+        font-size: 105%;
+    }
+    #total {
+        font-size: 300%;
+    }
+    footer {
+        height: 50px;
+    }
+    span {
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Metros</title>
+    <link href="./css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="./css/responsivo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>M-Convert📐</h1>
+    </header>
+
+    <main>
+        <form id="form">
+            <section class="inputs">
+                <div class="form-group">
+                    <label for="metros">Valor (m)</label>
+                    <input type="number" placeholder="10m" id="metros" name="metros" max="15000" min="1">
+                </div>
+
+                <div class="form-group">
+                    <label for="unidades">Escolha a unidade</label>
+                    <select id="unidades">
+                        <option value="">Selecione...</option>
+                        <option value="km">Quilômetro (Km)</option>
+                        <option value="cm">Centímetro (cm)</option>
+                        <option value="mm">Milímetro (mm)</option>
+                        <option value="Mm">Micrômetro (µm)</option>
+                        <option value="nm">Nanômetro (nm)</option>
+                        <option value="mil">Milha (mi)</option>
+                        <option value="ja">Jarda (ya)</option>
+                        <option value="pe">Pé (ft)</option>
+                        <option value="po">Polegada (in)</option>
+                    </select>
+                </div>
+            </section>
+
+            <button type="submit">Converter</button>
+        </form>
+
+        <h2 id="total"></h2>
+    </main>
+
+    <footer>
+        <span>
+            &copy; M-Convert📐, 2023. Todos os direitos reservados.
+        </span>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
